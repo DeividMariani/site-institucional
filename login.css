@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+.caixa-formulario {
+    background-color: whitesmoke;
+    padding: 50px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-formulario h1 {
+    color: #e6005a;
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.campo input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #32b9cd;
+    color: black;
+}
+
+.campo label {
+    color: #e6005a;
+    margin: 15px 0;
+    
+}
+
+button {
+    margin-top: 20px;
+    width: 120px;
+    background-color: #e6005a;
+    color: #f4f4f4;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: yellow;
+    transition: all 0.6s ease-in-out 0s;
+    box-shadow: inset 0 0 20px #000;    
+}
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.5) rotate(360deg);
+    box-shadow: 0 0 60px rgba(255, 217, 0, 64);
+    cursor: pointer;
+    border: 2px solid yellow;
+}
+
